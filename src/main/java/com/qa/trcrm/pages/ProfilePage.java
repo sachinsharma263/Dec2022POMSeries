@@ -1,10 +1,10 @@
 package com.qa.trcrm.pages;
 
 public class ProfilePage {
-
-	public ProfilePage()
+WebDriver driver;
+	public ProfilePage(WebDriver driver)
 	{
-		
+		this.driver=driver;
 	}
 	
 }
