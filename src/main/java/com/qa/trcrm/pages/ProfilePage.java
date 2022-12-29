@@ -8,5 +8,7 @@ WebDriver driver;
 	{
 		this.driver=driver;
 	}
+	public void remote()
+	{}
 	
 }
