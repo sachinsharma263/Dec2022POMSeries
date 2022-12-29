@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 58.322 s <<< FAILURE! - in TestSuite
+verifySignUpNowLinkTest(com.qa.trcrm.tests.LoginPageTest)  Time elapsed: 0.156 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.trcrm.tests.LoginPageTest.verifySignUpNowLinkTest(LoginPageTest.java:42)
+

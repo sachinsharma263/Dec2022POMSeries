@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="trcrm app sanity suite">
+
+<listeners>
+		<listener class-name="com.qa.trcrm.listeners.pdfListener"></listener>
+	</listeners>
+
+	<test name="sanity test" verbose="2">
+		<classes>
+			<class name="com.qa.trcrm.tests.LoginPageTest2" />
+		</classes>
+	</test>
+</suite> 

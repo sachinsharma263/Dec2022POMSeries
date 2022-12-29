@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app-Regression suite]">
+  <listeners>
+    <listener class-name="com.qa.trcrm.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Login Page Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.trcrm.tests.LoginPageTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySignUpNowLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest2 -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [trcrm app-Regression suite] -->

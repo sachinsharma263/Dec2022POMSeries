@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app sanity suite]">
+  <listeners>
+    <listener class-name="com.qa.trcrm.listeners.pdfListener"/>
+  </listeners>
+  <test thread-count="5" name="sanity test(failed)">
+    <classes>
+      <class name="com.qa.trcrm.tests.LoginPageTest">
+        <methods>
+          <include name="verifySignUpNowLinkTest"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- sanity test(failed) -->
+</suite> <!-- Failed suite [trcrm app sanity suite] -->

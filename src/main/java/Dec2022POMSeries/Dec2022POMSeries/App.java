@@ -1,0 +1,13 @@
+package Dec2022POMSeries.Dec2022POMSeries;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

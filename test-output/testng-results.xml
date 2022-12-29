@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="trcrm app-Regression suite" duration-ms="302007" started-at="2022-12-28T17:54:29Z" finished-at="2022-12-28T17:59:31Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="39882" started-at="2022-12-28T17:54:29Z" finished-at="2022-12-28T17:55:09Z">
+      <class name="com.qa.trcrm.tests.LoginPageTest2">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.trcrm.tests.LoginPageTest2@68567e20]" name="setUp" is-config="true" duration-ms="12535" started-at="2022-12-28T17:54:29Z" finished-at="2022-12-28T17:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest2@68567e20]" name="verifyLoginPageTitleTest" duration-ms="56" started-at="2022-12-28T17:54:41Z" finished-at="2022-12-28T17:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="FAIL" signature="verifySignUpNowLinkTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest2@68567e20]" name="verifySignUpNowLinkTest" duration-ms="180" started-at="2022-12-28T17:54:42Z" finished-at="2022-12-28T17:54:42Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.trcrm.utils.ElementUtil.isDisplayed(ElementUtil.java:42)
+at com.qa.trcrm.pages.LoginPage.signUpNowLink(LoginPage.java:36)
+at com.qa.trcrm.tests.LoginPageTest2.verifySignUpNowLinkTest(LoginPageTest2.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpNowLinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest2@68567e20]" name="loginTest" duration-ms="25447" started-at="2022-12-28T17:54:42Z" finished-at="2022-12-28T17:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest2@68567e20]" name="tearDown" is-config="true" duration-ms="1572" started-at="2022-12-28T17:55:07Z" finished-at="2022-12-28T17:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest2 -->
+    </test> <!-- Login Page Test -->
+    <test name="Home Page Test" duration-ms="260808" started-at="2022-12-28T17:55:10Z" finished-at="2022-12-28T17:59:31Z">
+      <class name="com.qa.trcrm.tests.HomePageTest2">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.qa.trcrm.tests.HomePageTest2@236e3f4e]" name="beforeTest" is-config="true" duration-ms="259443" started-at="2022-12-28T17:55:10Z" finished-at="2022-12-28T17:59:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.trcrm.tests.HomePageTest2@236e3f4e]" name="verifyHomePageTitleTest" duration-ms="33" started-at="2022-12-28T17:59:30Z" finished-at="2022-12-28T17:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:2, instance:com.qa.trcrm.tests.HomePageTest2@236e3f4e]" name="verifyLoggedInUserTest" duration-ms="79" started-at="2022-12-28T17:59:30Z" finished-at="2022-12-28T17:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:3, instance:com.qa.trcrm.tests.HomePageTest2@236e3f4e]" name="verifyHomePageHeaderTest" duration-ms="45" started-at="2022-12-28T17:59:30Z" finished-at="2022-12-28T17:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.trcrm.tests.HomePageTest2@236e3f4e]" name="afterTest" is-config="true" duration-ms="1149" started-at="2022-12-28T17:59:30Z" finished-at="2022-12-28T17:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.trcrm.tests.HomePageTest2 -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- trcrm app-Regression suite -->
+</testng-results>

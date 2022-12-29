@@ -1,0 +1,13 @@
+com\qa\trcrm\base\OptionsManager.class
+com\qa\trcrm\utils\ElementUtil.class
+com\qa\trcrm\pages\ContactsPage.class
+com\qa\trcrm\base\BasePage.class
+Dec2022POMSeries\Dec2022POMSeries\App.class
+com\qa\trcrm\utils\AppConstants.class
+com\qa\trcrm\utils\JavaScriptUtil.class
+com\qa\trcrm\pages\HomePage.class
+com\qa\trcrm\base\BasePag3.class
+com\qa\trcrm\listeners\ExtentReportListener.class
+com\qa\trcrm\listeners\pdfListener.class
+com\qa\trcrm\pages\LoginPage.class
+com\qa\trcrm\base\BasePage2.class
