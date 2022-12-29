@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.trcrm.base.BasePage;
+import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.ElementUtil;
 import com.qa.trcrm.utils.JavaScriptUtil;
 
@@ -25,7 +26,7 @@ public class LoginPage extends BasePage {
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		util = new ElementUtil(driver);
-		jsUtil=new JavaScriptUtil(driver);
+		jsUtil = new JavaScriptUtil(driver);
 	}
 
 	public String getPageTitle() {
@@ -45,6 +46,15 @@ public class LoginPage extends BasePage {
 		util.doClick(loginBtn);
 
 		return new HomePage(driver);
+	}
+
+	public HomePage doLogin(Credentials credentials) {
+		util.doSendKeys(email, credentials.getEmailId());
+		util.doSendKeys(password, credentials.getPassword());
+		util.doClick(loginBtn);
+		
+		return new HomePage(driver);
+		
 	}
 
 	public boolean errorMessage() {
