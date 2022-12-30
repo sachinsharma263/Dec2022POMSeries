@@ -19,6 +19,12 @@
 			<class name="com.qa.trcrm.tests.HomePageTest" />
 		</classes>
 	</test>
+	<test name="Contacts Page Test" verbose="2">
+
+		<classes>
+			<class name="com.qa.trcrm.tests.ContactsPageTest" />
+		</classes>
+	</test>
 
 
 
