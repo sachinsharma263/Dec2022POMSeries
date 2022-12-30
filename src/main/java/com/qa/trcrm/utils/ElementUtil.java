@@ -16,7 +16,7 @@ public class ElementUtil {
 	public ElementUtil(WebDriver driver) {
 		this.driver = driver;
 		action = new Actions(driver);
-		wait = new WebDriverWait(driver, 10);
+		wait = new WebDriverWait(driver, AppConstants.DEFAULT_TIME_OUT);
 	}
 
 	public WebElement getElement(By locator) {
@@ -25,7 +25,7 @@ public class ElementUtil {
 			element = driver.findElement(locator);
 			return element;
 		} catch (Exception e) {
-			System.out.println("some exceptio occured while creating the web element: " + locator);
+			System.out.println("some exception occured while creating the web element: " + locator);
 		}
 		return element;
 	}

@@ -14,4 +14,6 @@ public class AppConstants {
 	
 	public static final String CONTACTS_PAGE_HEADER = "Contacts";
 	public static final String CONTACTS_PERSON_ADDED = "Person added.";
+	
+	public static final int DEFAULT_TIME_OUT=20;
 }

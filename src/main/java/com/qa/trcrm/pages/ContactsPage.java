@@ -6,11 +6,13 @@ import org.openqa.selenium.WebDriver;
 import com.qa.trcrm.base.BasePage;
 import com.qa.trcrm.pojo.Contacts;
 import com.qa.trcrm.utils.ElementUtil;
+import com.qa.trcrm.utils.JavaScriptUtil;
 
 public class ContactsPage extends BasePage {
 
 	WebDriver driver;
 	ElementUtil util;
+	JavaScriptUtil jsUtil;
 
 	By contactPageHeader = By.xpath("(//h2[text()])[1]");
 
@@ -23,6 +25,7 @@ public class ContactsPage extends BasePage {
 	public ContactsPage(WebDriver driver) {
 		this.driver = driver;
 		util = new ElementUtil(driver);
+		jsUtil = new JavaScriptUtil(driver);
 	}
 
 	public String contactPageTitle() {
