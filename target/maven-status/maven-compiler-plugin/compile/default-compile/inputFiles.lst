@@ -4,10 +4,16 @@ D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\listeners\pdfLi
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\ContactsPage.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\ElementUtil.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\listeners\ExtentReportListener.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\RegPage.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\ExcelUtil.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pojo\Contacts.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pojo\Credentials.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\JavaScriptUtil.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\base\BasePag3.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\AppConstants.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\ProfilePage.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\LoginPage.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\ExcelUtil2.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\Dec2022POMSeries\Dec2022POMSeries\App.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\base\BasePage2.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\HomePage.java

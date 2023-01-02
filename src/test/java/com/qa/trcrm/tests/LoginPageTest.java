@@ -2,12 +2,13 @@ package com.qa.trcrm.tests;
 
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.qa.trcrm.base.BasePage;
@@ -15,6 +16,8 @@ import com.qa.trcrm.pages.HomePage;
 import com.qa.trcrm.pages.LoginPage;
 import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.AppConstants;
+import com.qa.trcrm.utils.JiraPolicy;
+import com.qa.trcrm.utils.Log;
 
 public class LoginPageTest {
 
@@ -23,31 +26,38 @@ public class LoginPageTest {
 	Properties prop;
 	LoginPage loginPage;
 	HomePage homePage;
-	
+
 	Credentials credentials;
 
 	@BeforeTest
 	public void setUp() {
 		basePage = new BasePage();
+		Log.info("base page laucnhed");
 		prop = basePage.init_prop();
+		Log.error("prop init");
 		driver = basePage.init_driver(prop);
+		Log.debug("driver laucnhed");
 		loginPage = new LoginPage(driver);
-		
-		credentials=new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+
+		credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+
 	}
 
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = true, description = "verify Login Page Title is correct or not")
 	public void verifyLoginPageTitleTest() {
+		Log.info("getting Login page title");
 		String title = loginPage.getPageTitle();
+		Log.info("Login page title is: " + title);
 		Assert.assertEquals(title, AppConstants.LOGIN_PAGE_TITLE);
 	}
 
-	@Test(priority = 2, enabled = true)
+	@JiraPolicy(logTicketReady = true)
+	@Test(priority = 2, enabled = true, description = "verify SignUp Link is correct or not")
 	public void verifySignUpNowLinkTest() {
 		Assert.assertTrue(loginPage.signUpNowLink());
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = true, description = "verify login feature")
 	public void loginTest() {
 		homePage = loginPage.doLogin(credentials);
 		Assert.assertEquals(homePage.homePageHeader(), AppConstants.HOME_PAGE_HEADER);
