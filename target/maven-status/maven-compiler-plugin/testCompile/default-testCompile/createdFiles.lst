@@ -1,6 +1,8 @@
 com\qa\trcrm\tests\LoginPageTest3.class
 com\qa\trcrm\tests\HomePageTest2.class
+com\qa\trcrm\tests\ContactsPageTest.class
 Dec2022POMSeries\Dec2022POMSeries\AppTest.class
+com\qa\trcrm\tests\ContactsPageTest2.class
 com\qa\trcrm\tests\HomePageTest.class
 com\qa\trcrm\tests\HomePageTest3.class
 com\qa\trcrm\tests\LoginPageTest2.class

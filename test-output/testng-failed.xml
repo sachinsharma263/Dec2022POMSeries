@@ -3,17 +3,29 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app-Regression suite]">
   <listeners>
     <listener class-name="com.qa.trcrm.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.trcrm.listeners.TestJiraListener"/>
+    <listener class-name="com.qa.trcrm.listeners.LogListener"/>
   </listeners>
   <test thread-count="5" name="Login Page Test(failed)">
-    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.qa.trcrm.tests.LoginPageTest2">
+      <class name="com.qa.trcrm.tests.LoginPageTest">
         <methods>
+          <include name="verifySignUpNowLinkTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifySignUpNowLinkTest"/>
         </methods>
-      </class> <!-- com.qa.trcrm.tests.LoginPageTest2 -->
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
     </classes>
   </test> <!-- Login Page Test(failed) -->
+  <test thread-count="5" name="Contacts Page Test(failed)">
+    <classes>
+      <class name="com.qa.trcrm.tests.ContactsPageTest">
+        <methods>
+          <include name="verifyContactpageHeaderTest"/>
+          <include name="name"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.trcrm.tests.ContactsPageTest -->
+    </classes>
+  </test> <!-- Contacts Page Test(failed) -->
 </suite> <!-- Failed suite [trcrm app-Regression suite] -->

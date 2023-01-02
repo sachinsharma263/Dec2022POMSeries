@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Login Page Test</title>
+<title>TestNG:  Contacts Page Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Login Page Test</h2><table border='1' align="center">
+<h2 align='center'>Contacts Page Test</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jan 01 18:11:16 IST 2023</td>
+<td>Started on:</td><td>Sun Jan 01 18:12:54 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>70 seconds (70127 ms)</td>
+<tr><td>Total time:</td><td>177 seconds (177141 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.trcrm.tests.LoginPageTest.verifySignUpNowLinkTest()'><b>verifySignUpNowLinkTest</b><br>Test class: com.qa.trcrm.tests.LoginPageTest<br>Test method: verify SignUp Link is correct or not</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.qa.trcrm.utils.ElementUtil.isDisplayed(ElementUtil.java:42)
-	at com.qa.trcrm.pages.LoginPage.signUpNowLink(LoginPage.java:37)
-	at com.qa.trcrm.tests.LoginPageTest.verifySignUpNowLinkTest(LoginPageTest.java:57)
+<td title='com.qa.trcrm.tests.ContactsPageTest.verifyContactpageHeaderTest()'><b>verifyContactpageHeaderTest</b><br>Test class: com.qa.trcrm.tests.ContactsPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Contacts] but found [!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.trcrm.tests.ContactsPageTest.verifyContactpageHeaderTest(ContactsPageTest.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -105,11 +109,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace617915401", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace617915401'><pre>java.lang.NullPointerException
-	at com.qa.trcrm.utils.ElementUtil.isDisplayed(ElementUtil.java:42)
-	at com.qa.trcrm.pages.LoginPage.signUpNowLink(LoginPage.java:37)
-	at com.qa.trcrm.tests.LoginPageTest.verifySignUpNowLinkTest(LoginPageTest.java:57)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2108708912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2108708912'><pre>java.lang.AssertionError: expected [Contacts] but found [!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.trcrm.tests.ContactsPageTest.verifyContactpageHeaderTest(ContactsPageTest.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -136,8 +144,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.qa.trcrm.tests.LoginPageTest@1e9d7366</td></tr>
+<td>0</td>
+<td>com.qa.trcrm.tests.ContactsPageTest@c677d7e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -147,15 +155,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.trcrm.tests.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.qa.trcrm.tests.LoginPageTest<br>Test method: verify login feature</td>
+<td title='com.qa.trcrm.tests.ContactsPageTest.verifyAddPersonTest()'><b>verifyAddPersonTest</b><br>Test class: com.qa.trcrm.tests.ContactsPageTest<br>Parameters: Bhawna, bhawna@gmail.com</td>
 <td></td>
-<td>21</td>
-<td>com.qa.trcrm.tests.LoginPageTest@1e9d7366</td></tr>
+<td>18</td>
+<td>com.qa.trcrm.tests.ContactsPageTest@c677d7e</td></tr>
 <tr>
-<td title='com.qa.trcrm.tests.LoginPageTest.verifyLoginPageTitleTest()'><b>verifyLoginPageTitleTest</b><br>Test class: com.qa.trcrm.tests.LoginPageTest<br>Test method: verify Login Page Title is correct or not</td>
+<td title='com.qa.trcrm.tests.ContactsPageTest.verifyAddPersonTest()'><b>verifyAddPersonTest</b><br>Test class: com.qa.trcrm.tests.ContactsPageTest<br>Parameters: Deepak, deepak@gmail.com</td>
 <td></td>
-<td>0</td>
-<td>com.qa.trcrm.tests.LoginPageTest@1e9d7366</td></tr>
+<td>22</td>
+<td>com.qa.trcrm.tests.ContactsPageTest@c677d7e</td></tr>
 </table><p>
 </body>
 </html>
