@@ -39,7 +39,11 @@ public class LoginPageTest {
 		Log.debug("driver laucnhed");
 		loginPage = new LoginPage(driver);
 
-		credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		if (System.getProperty("email").isEmpty() && System.getProperty("pass").isEmpty()) {
+			credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		} else {
+			credentials = new Credentials(System.getProperty("email"), System.getProperty("pass"));
+		}
 
 	}
 

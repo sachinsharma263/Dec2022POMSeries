@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-trcrm_app-Regression_suite" class="show-methods failed suite-trcrm_app-Regression_suite"> (show)</a> <!-- show-methods failed suite-trcrm_app-Regression_suite -->
                     </span>
                     <div class="method-list-content failed suite-trcrm_app-Regression_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-trcrm_app-Regression_suite" title="com.qa.trcrm.tests.ContactsPageTest" hash-for-method="verifyContactpageHeaderTest">verifyContactpageHeaderTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-trcrm_app-Regression_suite" title="com.qa.trcrm.tests.LoginPageTest" hash-for-method="verifySignUpNowLinkTest">verifySignUpNowLinkTest</a> <!-- method navigator-link -->
@@ -132,6 +127,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-trcrm_app-Regression_suite" title="com.qa.trcrm.tests.ContactsPageTest" hash-for-method="verifyAddPersonTest(Bhawna, bhawna@gmail.com)">verifyAddPersonTest(Bhawna, bhawna@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-trcrm_app-Regression_suite" title="com.qa.trcrm.tests.ContactsPageTest" hash-for-method="verifyContactpageHeaderTest">verifyContactpageHeaderTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -214,85 +214,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-trcrm_app-Regression_suite-class-failed -->
-          <div class="suite-trcrm_app-Regression_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.trcrm.tests.ContactsPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyContactpageHeaderTest">
-                  </a> <!-- verifyContactpageHeaderTest -->
-                  <span class="method-name">verifyContactpageHeaderTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Contacts] but found [!]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.qa.trcrm.tests.ContactsPageTest.verifyContactpageHeaderTest(ContactsPageTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-trcrm_app-Regression_suite-class-failed -->
-          <div class="suite-trcrm_app-Regression_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.trcrm.tests.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHomePageHeaderTest">
-                  </a> <!-- verifyHomePageHeaderTest -->
-                  <span class="method-name">verifyHomePageHeaderTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHomePageTitleTest">
-                  </a> <!-- verifyHomePageTitleTest -->
-                  <span class="method-name">verifyHomePageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoggedInUserTest">
-                  </a> <!-- verifyLoggedInUserTest -->
-                  <span class="method-name">verifyLoggedInUserTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-trcrm_app-Regression_suite-class-passed -->
           <div class="suite-trcrm_app-Regression_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -339,6 +260,42 @@
                   </a> <!-- verifyAddPersonTest(Bhawna, bhawna@gmail.com) -->
                   <span class="method-name">verifyAddPersonTest</span>
                   <span class="parameters">(Bhawna, bhawna@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactpageHeaderTest">
+                  </a> <!-- verifyContactpageHeaderTest -->
+                  <span class="method-name">verifyContactpageHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-trcrm_app-Regression_suite-class-passed -->
+          <div class="suite-trcrm_app-Regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.trcrm.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageHeaderTest">
+                  </a> <!-- verifyHomePageHeaderTest -->
+                  <span class="method-name">verifyHomePageHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoggedInUserTest">
+                  </a> <!-- verifyLoggedInUserTest -->
+                  <span class="method-name">verifyLoggedInUserTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -420,44 +377,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyAddPersonTest')
 data.setCell(0, 2, 'com.qa.trcrm.tests.ContactsPageTest')
-data.setCell(0, 3, 22142);
+data.setCell(0, 3, 16315);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'com.qa.trcrm.tests.LoginPageTest')
-data.setCell(1, 3, 21374);
+data.setCell(1, 1, 'verifyAddPersonTest')
+data.setCell(1, 2, 'com.qa.trcrm.tests.ContactsPageTest')
+data.setCell(1, 3, 14527);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyAddPersonTest')
-data.setCell(2, 2, 'com.qa.trcrm.tests.ContactsPageTest')
-data.setCell(2, 3, 18633);
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.qa.trcrm.tests.LoginPageTest')
+data.setCell(2, 3, 11748);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySignUpNowLinkTest')
-data.setCell(3, 2, 'com.qa.trcrm.tests.LoginPageTest')
-data.setCell(3, 3, 1122);
+data.setCell(3, 1, 'verifyContactpageHeaderTest')
+data.setCell(3, 2, 'com.qa.trcrm.tests.ContactsPageTest')
+data.setCell(3, 3, 9250);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyContactpageHeaderTest')
-data.setCell(4, 2, 'com.qa.trcrm.tests.ContactsPageTest')
-data.setCell(4, 3, 209);
+data.setCell(4, 1, 'verifyLoggedInUserTest')
+data.setCell(4, 2, 'com.qa.trcrm.tests.HomePageTest')
+data.setCell(4, 3, 452);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyLoggedInUserTest')
+data.setCell(5, 1, 'verifyHomePageHeaderTest')
 data.setCell(5, 2, 'com.qa.trcrm.tests.HomePageTest')
-data.setCell(5, 3, 183);
+data.setCell(5, 3, 175);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyLoginPageTitleTest')
+data.setCell(6, 1, 'verifySignUpNowLinkTest')
 data.setCell(6, 2, 'com.qa.trcrm.tests.LoginPageTest')
-data.setCell(6, 3, 159);
+data.setCell(6, 3, 168);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyHomePageHeaderTest')
-data.setCell(7, 2, 'com.qa.trcrm.tests.HomePageTest')
-data.setCell(7, 3, 138);
+data.setCell(7, 1, 'verifyLoginPageTitleTest')
+data.setCell(7, 2, 'com.qa.trcrm.tests.LoginPageTest')
+data.setCell(7, 3, 100);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyHomePageTitleTest')
 data.setCell(8, 2, 'com.qa.trcrm.tests.HomePageTest')
-data.setCell(8, 3, 30);
+data.setCell(8, 3, 17);
 window.suiteTableData['trcrm_app-Regression_suite']= { tableData: data, tableDiv: 'times-div-trcrm_app-Regression_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
               <div id="times-div-trcrm_app-Regression_suite">
               </div> <!-- times-div-trcrm_app-Regression_suite -->
             </div> <!-- times-div -->
@@ -497,85 +454,83 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">30529 ms</span>
+                <span class="method-start">9872 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySignUpNowLinkTest</span>
-                <span class="method-start">30732 ms</span>
+                <span class="method-start">10007 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">39835 ms</span>
+                <span class="method-start">15532 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">61232 ms</span>
+                <span class="method-start">27284 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.trcrm.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">67160 ms</span>
+                <span class="method-start">29600 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitleTest</span>
-                <span class="method-start">90330 ms</span>
+                <span class="method-start">58863 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLoggedInUserTest</span>
-                <span class="method-start">90478 ms</span>
+                <span class="method-start">58882 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageHeaderTest</span>
-                <span class="method-start">90668 ms</span>
+                <span class="method-start">59346 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">90806 ms</span>
+                <span class="method-start">59523 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.trcrm.tests.ContactsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">92188 ms</span>
+                <span class="method-start">60848 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyContactpageHeaderTest</span>
-                <span class="method-start">133414 ms</span>
+                <span class="method-start">89184 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">name</span>
-                <span class="method-start">134170 ms</span>
+                <span class="method-start">98436 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">140051 ms</span>
+                <span class="method-start">101717 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddPersonTest(Bhawna, bhawna@gmail.com)</span>
-                <span class="method-start">165560 ms</span>
+                <span class="method-start">134517 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">name</span>
-                <span class="method-start">184270 ms</span>
+                <span class="method-start">149047 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">186113 ms</span>
+                <span class="method-start">150035 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddPersonTest(Deepak, deepak@gmail.com)</span>
-                <span class="method-start">244598 ms</span>
+                <span class="method-start">171434 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">name</span>
-                <span class="method-start">266754 ms</span>
+                <span class="method-start">187752 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

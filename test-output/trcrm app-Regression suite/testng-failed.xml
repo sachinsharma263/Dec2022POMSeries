@@ -17,15 +17,4 @@
       </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
     </classes>
   </test> <!-- Login Page Test(failed) -->
-  <test thread-count="5" name="Contacts Page Test(failed)">
-    <classes>
-      <class name="com.qa.trcrm.tests.ContactsPageTest">
-        <methods>
-          <include name="verifyContactpageHeaderTest"/>
-          <include name="name"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.trcrm.tests.ContactsPageTest -->
-    </classes>
-  </test> <!-- Contacts Page Test(failed) -->
 </suite> <!-- Failed suite [trcrm app-Regression suite] -->
