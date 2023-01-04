@@ -1,4 +1,6 @@
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\listeners\TestJiraListener.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\base\BasePage.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\listeners\LogListener.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\base\OptionsManager.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\listeners\pdfListener.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\ContactsPage.java
@@ -6,6 +8,7 @@ D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\ElementUt
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\listeners\ExtentReportListener.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\RegPage.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\ExcelUtil.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\JiraPolicy.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pojo\Contacts.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pojo\Credentials.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\JavaScriptUtil.java
@@ -14,6 +17,8 @@ D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\AppConsta
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\ProfilePage.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\LoginPage.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\ExcelUtil2.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\Log.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\Dec2022POMSeries\Dec2022POMSeries\App.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\base\BasePage2.java
 D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\pages\HomePage.java
+D:\eclipse-workspace\Dec2022POMSeries\src\main\java\com\qa\trcrm\utils\JiraServiceProvider.java

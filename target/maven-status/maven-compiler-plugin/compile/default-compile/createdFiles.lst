@@ -1,6 +1,10 @@
 com\qa\trcrm\base\OptionsManager.class
 com\qa\trcrm\utils\ElementUtil.class
+com\qa\trcrm\listeners\LogListener.class
+com\qa\trcrm\utils\Log.class
 com\qa\trcrm\pages\ContactsPage.class
+com\qa\trcrm\utils\JiraPolicy.class
+com\qa\trcrm\listeners\TestJiraListener.class
 com\qa\trcrm\pages\ProfilePage.class
 com\qa\trcrm\pages\RegPage.class
 com\qa\trcrm\pojo\Credentials.class
@@ -16,4 +20,5 @@ com\qa\trcrm\listeners\pdfListener.class
 com\qa\trcrm\pojo\Contacts.class
 com\qa\trcrm\pages\LoginPage.class
 com\qa\trcrm\base\BasePage2.class
+com\qa\trcrm\utils\JiraServiceProvider.class
 com\qa\trcrm\utils\ExcelUtil.class

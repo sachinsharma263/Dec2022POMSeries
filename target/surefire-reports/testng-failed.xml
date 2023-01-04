@@ -3,6 +3,8 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [trcrm app-Regression suite]">
   <listeners>
     <listener class-name="com.qa.trcrm.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.trcrm.listeners.TestJiraListener"/>
+    <listener class-name="com.qa.trcrm.listeners.LogListener"/>
   </listeners>
   <test thread-count="5" verbose="0" name="Login Page Test(failed)">
     <classes>

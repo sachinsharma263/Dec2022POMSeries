@@ -188,3 +188,43 @@
 2023-01-01 18:15:27.443 [main] INFO  com.qa.trcrm.utils.Log - null
 2023-01-01 18:15:49.502 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyAddPersonTest passed!
 2023-01-01 18:15:52.889 [main] INFO  com.qa.trcrm.utils.Log - Contacts Page Test Test ended!
+2023-01-02 23:51:22.775 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2023-01-02 23:51:22.815 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2023-01-02 23:51:22.816 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2023-01-02 23:51:32.388 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2023-01-02 23:51:32.682 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2023-01-02 23:51:32.683 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2023-01-02 23:51:32.736 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2023-01-02 23:51:32.761 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2023-01-02 23:51:32.773 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2023-01-02 23:51:32.805 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpNowLinkTest starting
+2023-01-02 23:51:32.806 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2023-01-02 23:51:32.998 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpNowLinkTest failed!
+2023-01-02 23:51:33.449 [main] INFO  com.qa.trcrm.utils.Log - Logging bug in jira
+2023-01-02 23:51:38.325 [main] INFO  com.qa.trcrm.utils.Log - new issue created in jira with ID: MCRPROJ-119
+2023-01-02 23:51:38.330 [main] INFO  com.qa.trcrm.utils.Log - starting test case: loginTest starting
+2023-01-02 23:51:38.330 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2023-01-02 23:51:50.077 [main] INFO  com.qa.trcrm.utils.Log - test case: loginTest passed!
+2023-01-02 23:51:51.389 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2023-01-02 23:51:52.394 [main] INFO  com.qa.trcrm.utils.Log - Home Page Test Test started!
+2023-01-02 23:52:21.660 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyHomePageTitleTest starting
+2023-01-02 23:52:21.660 [main] INFO  com.qa.trcrm.utils.Log - null
+2023-01-02 23:52:21.676 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyHomePageTitleTest passed!
+2023-01-02 23:52:21.683 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoggedInUserTest starting
+2023-01-02 23:52:21.683 [main] INFO  com.qa.trcrm.utils.Log - null
+2023-01-02 23:52:22.139 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoggedInUserTest passed!
+2023-01-02 23:52:22.144 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyHomePageHeaderTest starting
+2023-01-02 23:52:22.144 [main] INFO  com.qa.trcrm.utils.Log - null
+2023-01-02 23:52:22.317 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyHomePageHeaderTest passed!
+2023-01-02 23:52:23.371 [main] INFO  com.qa.trcrm.utils.Log - Home Page Test Test ended!
+2023-01-02 23:52:23.637 [main] INFO  com.qa.trcrm.utils.Log - Contacts Page Test Test started!
+2023-01-02 23:52:51.987 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyContactpageHeaderTest starting
+2023-01-02 23:52:52.004 [main] INFO  com.qa.trcrm.utils.Log - null
+2023-01-02 23:53:01.230 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyContactpageHeaderTest passed!
+2023-01-02 23:53:37.315 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyAddPersonTest starting
+2023-01-02 23:53:37.321 [main] INFO  com.qa.trcrm.utils.Log - null
+2023-01-02 23:53:51.841 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyAddPersonTest passed!
+2023-01-02 23:54:14.230 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyAddPersonTest starting
+2023-01-02 23:54:14.230 [main] INFO  com.qa.trcrm.utils.Log - null
+2023-01-02 23:54:30.546 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyAddPersonTest passed!
+2023-01-02 23:54:31.761 [main] INFO  com.qa.trcrm.utils.Log - Contacts Page Test Test ended!

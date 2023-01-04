@@ -8,11 +8,56 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">13,379</td><td></td><td></td></tr>
+<tr><th colspan="7">trcrm app-Regression suite</th></tr>
+<tr><td><a href="#t0">Login Page Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">54,563</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Home Page Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">55,160</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Contacts Page Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">151,377</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num attn">1</th><th class="num">261,100</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.trcrm.tests.LoginPageTest</td><td><a href="#m0">verifyLoginPageTitleTest</a></td><td rowspan="1">1672421740440</td><td rowspan="1">20</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">trcrm app-Regression suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Page Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.trcrm.tests.LoginPageTest</td><td><a href="#m0">verifySignUpNowLinkTest</a></td><td rowspan="1">1672846691317</td><td rowspan="1">450</td></tr><tr><th colspan="4">Login Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.trcrm.tests.LoginPageTest</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1672846698301</td><td rowspan="1">26483</td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginPageTitleTest</a></td><td rowspan="1">1672846691232</td><td rowspan="1">63</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Home Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.trcrm.tests.HomePageTest</td><td><a href="#m3">verifyHomePageHeaderTest</a></td><td rowspan="1">1672846780925</td><td rowspan="1">90</td></tr><tr class="passedeven"><td><a href="#m4">verifyHomePageTitleTest</a></td><td rowspan="1">1672846780854</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m5">verifyLoggedInUserTest</a></td><td rowspan="1">1672846780869</td><td rowspan="1">55</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Contacts Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.trcrm.tests.ContactsPageTest</td><td><a href="#m6">verifyAddPersonTest</a></td><td rowspan="2">1672846856774</td><td rowspan="2">22332</td></tr><tr class="passedeven"><td><a href="#m7">verifyAddPersonTest</a></td></tr><tr class="passedeven"><td><a href="#m8">verifyContactpageHeaderTest</a></td><td rowspan="1">1672846812572</td><td rowspan="1">19489</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">com.qa.trcrm.tests.LoginPageTest#verifyLoginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Page Test</h2><h3 id="m0">com.qa.trcrm.tests.LoginPageTest#verifySignUpNowLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.trcrm.utils.ElementUtil.isDisplayed(ElementUtil.java:42)
+	at com.qa.trcrm.pages.LoginPage.signUpNowLink(LoginPage.java:37)
+	at com.qa.trcrm.tests.LoginPageTest.verifySignUpNowLinkTest(LoginPageTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.trcrm.tests.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.trcrm.tests.LoginPageTest#verifyLoginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Home Page Test</h2><h3 id="m3">com.qa.trcrm.tests.HomePageTest#verifyHomePageHeaderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.trcrm.tests.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.trcrm.tests.HomePageTest#verifyLoggedInUserTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Contacts Page Test</h2><h3 id="m6">com.qa.trcrm.tests.ContactsPageTest#verifyAddPersonTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Bhawna</td><td>bhawna@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.trcrm.tests.ContactsPageTest#verifyAddPersonTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Deepak</td><td>deepak@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.trcrm.tests.ContactsPageTest#verifyContactpageHeaderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
