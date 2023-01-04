@@ -9,7 +9,7 @@
 
 	<test name="sanity test" verbose="2">
 		<classes>
-			<class name="com.qa.trcrm.tests.LoginPageTest2" />
+			<class name="com.qa.trcrm.tests.LoginPageTest" />
 		</classes>
 	</test>
 </suite> 
